@@ -12,3 +12,5 @@ body{
     font-family: sans-serif;
     background: var(--background-color);
     display: flex;
+    align-items: center;
+    justify-content: center;
