@@ -93,3 +93,6 @@ body{
     padding: 20px;
     border-radius: 20px; 
 }
+
+.message.joke{
+    background-color: var(--accent-color);
