@@ -52,3 +52,4 @@ body{
 
 .header .avatar{
     background-color: var(--accent-color);
+    align-self: center;
