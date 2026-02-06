@@ -58,3 +58,6 @@ body{
     border-radius: 50%;
     animation: pulseAvatar 1.5s infinite;
 }
+
+@keyframes pulseAvatar {
+    0%, 100%{
