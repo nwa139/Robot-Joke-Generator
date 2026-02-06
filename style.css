@@ -53,3 +53,5 @@ body{
 .header .avatar{
     background-color: var(--accent-color);
     align-self: center;
+    padding: 5px;
+    width: 50px;
