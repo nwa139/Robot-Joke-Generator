@@ -111,3 +111,5 @@ body{
 .btn{
     background-color: var(--accent-color);
     color: #fff;
+    font-family: inherit;
+    border: 0;
