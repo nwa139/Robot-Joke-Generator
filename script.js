@@ -6,3 +6,6 @@ jokeBtn.addEventListener("click",generateJoke);
 async function generateJoke(){
 
     jokeBtn.disabled = true;
+
+    const message = createMessageElement("Hey Robot tell me a joke?");
+    appendMessage(message);
