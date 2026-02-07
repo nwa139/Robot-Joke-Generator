@@ -4,3 +4,5 @@ const jokeBtn = document.getElementById("jokeBtn");
 generateJoke();
 jokeBtn.addEventListener("click",generateJoke);
 async function generateJoke(){
+
+    jokeBtn.disabled = true;
