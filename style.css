@@ -122,3 +122,5 @@ body{
 }
 
 .btn:hover{
+    background-color: blue;
+}
