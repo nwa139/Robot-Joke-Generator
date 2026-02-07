@@ -24,3 +24,7 @@ async function generateJoke(){
         const data = await res.json();
         console.log(data);
         setElementContent(joke,data.joke);
+        jokeBtn.disabled = false;
+    }  
+
+}
