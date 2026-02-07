@@ -28,3 +28,7 @@ async function generateJoke(){
     }  
 
 }
+
+function createMessageElement(content){
+
+                            
