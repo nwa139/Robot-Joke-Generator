@@ -120,3 +120,5 @@ body{
     cursor: pointer;
     transition: transform 0.2s ease, background-color 0.2s ease;
 }
+
+.btn:hover{
