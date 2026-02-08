@@ -39,3 +39,5 @@ function createMessageElement(content){
         element.classList.add("joke");
     }
                             
+    return element;
+}
