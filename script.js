@@ -33,5 +33,6 @@ function createMessageElement(content){
     const element = document.createElement("div");
     element.classList.add("message");
     if(content){
+        element.classList.add("response");
 
                             
