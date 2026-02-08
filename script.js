@@ -34,5 +34,6 @@ function createMessageElement(content){
     element.classList.add("message");
     if(content){
         element.classList.add("response");
+        setElementContent(element,content);
 
                             
