@@ -45,3 +45,5 @@ function createMessageElement(content){
 function setElementContent(element,content){
   element.innerHTML = content;
 }
+
+function appendMessage(element){
