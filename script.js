@@ -8,7 +8,7 @@ async function generateJoke(){
 
     jokeBtn.disabled = true;
 
-    const message = createMessageElement("Hey Robot tell me a joke?");
+    const message = createMessageElement("Hey Robot can you tell me a joke?");
     appendMessage(message);
 
     const joke = createMessageElement();
@@ -26,12 +26,14 @@ async function generateJoke(){
         console.log(data);
         setElementContent(joke,data.joke);
         jokeBtn.disabled = false;
+        chat.scrollTop = chat.scrollHeight;
     }  
 
 }
 
 function appendMessage(element){
     chat.appendChild(element);
+    chat.scrollTop = chat.scrollHeight;
 }
 
 function createMessageElement(content){
